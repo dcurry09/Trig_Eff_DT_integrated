@@ -1,0 +1,330 @@
+
+Processing efficienciesGlobalMuonsTwoMatched.C++...
+ --- Event #      1 
+ --- Event #  10001 
+ --- Event #  20001 
+ --- Event #  30001 
+ --- Event #  40001 
+ --- Event #  50001 
+ --- Event #  60001 
+ --- Event #  70001 
+ --- Event #  80001 
+ --- Event #  90001 
+ --- Event # 100001 
+ --- Event # 110001 
+ --- Event # 120001 
+ --- Event # 130001 
+ --- Event # 140001 
+ --- Event # 150001 
+ --- Event # 160001 
+ --- Event # 170001 
+ --- Event # 180001 
+ --- Event # 190001 
+ --- Event # 200001 
+ --- Event # 210001 
+ --- Event # 220001 
+ --- Event # 230001 
+ --- Event # 240001 
+ --- Event # 250001 
+ --- Event # 260001 
+ --- Event # 270001 
+ --- Event # 280001 
+ --- Event # 290001 
+ --- Event # 300001 
+ --- Event # 310001 
+ --- Event # 320001 
+ --- Event # 330001 
+ --- Event # 340001 
+ --- Event # 350001 
+ --- Event # 360001 
+ --- Event # 370001 
+ --- Event # 380001 
+ --- Event # 390001 
+ --- Event # 400001 
+ --- Event # 410001 
+ --- Event # 420001 
+ --- Event # 430001 
+ --- Event # 440001 
+ --- Event # 450001 
+ --- Event # 460001 
+ --- Event # 470001 
+ --- Event # 480001 
+ --- Event # 490001 
+ --- Event # 500001 
+ --- Event # 510001 
+ --- Event # 520001 
+ --- Event # 530001 
+ --- Event # 540001 
+ --- Event # 550001 
+ --- Event # 560001 
+ --- Event # 570001 
+ --- Event # 580001 
+ --- Event # 590001 
+ --- Event # 600001 
+ --- Event # 610001 
+ --- Event # 620001 
+ --- Event # 630001 
+ --- Event # 640001 
+ --- Event # 650001 
+ --- Event # 660001 
+ --- Event # 670001 
+ --- Event # 680001 
+ --- Event # 690001 
+ --- Event # 700001 
+ --- Event # 710001 
+ --- Event # 720001 
+ --- Event # 730001 
+ --- Event # 740001 
+ --- Event # 750001 
+ --- Event # 760001 
+ --- Event # 770001 
+ --- Event # 780001 
+ --- Event # 790001 
+ --- Event # 800001 
+ --- Event # 810001 
+ --- Event # 820001 
+ --- Event # 830001 
+ --- Event # 840001 
+ --- Event # 850001 
+ --- Event # 860001 
+ --- Event # 870001 
+ --- Event # 880001 
+ --- Event # 890001 
+ --- Event # 900001 
+ --- Event # 910001 
+ --- Event # 920001 
+ --- Event # 930001 
+ --- Event # 940001 
+ --- Event # 950001 
+ --- Event # 960001 
+ --- Event # 970001 
+ --- Event # 980001 
+ --- Event # 990001 
+ --- Event # 1000001 
+ --- Event # 1010001 
+ --- Event # 1020001 
+ --- Event # 1030001 
+ --- Event # 1040001 
+ --- Event # 1050001 
+ --- Event # 1060001 
+ --- Event # 1070001 
+ --- Event # 1080001 
+ ------------------------- End Analysis ----------------------------------------------------------
+Number of Global muons matched to two LCTs      = 71073
+   of these 1826 were overlap muons. 
+Number of times CSCTF did not trigger on a muon  = 3432
+   Of these 0 were overlap muons. 
+Number of times CSCTF did not produce a track(failed muons) = 3238
+
+Total Failures: 
+ Eta/Phi Windows = 1973
+ LCTs Different Sector = 696
+ Sector Edging = 662
+ Unaccounted Failures = 97
+ Sum of failures = 3431
+Map Counters: Different Eta regions 
+
+List of counted values: 
+----------------------- 
+ -- counter [Denominator: 1.7 <= eta <= 2.1]                == 21179
+ -- counter [Denominator: 1.3 <= eta <= 1.7]                == 15039
+ -- counter [Denominator: eta > 2.1]                        == 26508
+ -- counter [No Trigger: eta > 2.1]                         ==   860
+ -- counter [Fail Sector Edge: eta > 2.1]                   ==   195
+ -- counter [No Trigger: 1.3 <= eta <= 1.7]                 ==  1447
+ -- counter [Fail Different Sectors: 1.3 <= eta <= 1.7]     ==   337
+ -- counter [Denominator: eta < 1.3]                        ==  6524
+ -- counter [Denominator: Overlap Muon]                     ==  1826
+ -- counter [Fail Eta/Phi Windows: 1.3 <= eta <= 1.7]       ==   835
+ -- counter [No Trigger 1.7 <= eta <= 2.1]                  ==   762
+ -- counter [Fail Eta/Phi Windows: 1.7 <= eta <= 2.1]       ==   534
+ -- counter [No Trigger: eta < 1.3]                         ==   204
+ -- counter [Fail Eta/Phi Windows: eta < 1.3]               ==    49
+ -- counter [Fail Eta/Phi Windows: eta > 2.1]               ==   538
+ -- counter [No Trigger: Overlap Muon]                      ==   160
+ -- counter [Fail DT-CSC different sectors: Overlap Muon]   ==   124
+ -- counter [Fail Sector Edge: 1.3 <= eta <= 1.7]           ==   247
+ -- counter [Fail Sector Edge: 1.7 <= eta <= 2.1]           ==   118
+ -- counter [Fail Different Sectors: eta < 1.3]             ==    49
+ -- counter [Fail Different Sectors: 1.7 <= eta <= 2.1]     ==    75
+ -- counter [Fail Sector Edge: eta < 1.3]                   ==    99
+ -- counter [Should Have made a Muon: 1.7 <= eta <= 2.1]    ==    35
+ -- counter [Fail Different Sectors: eta > 2.1]             ==   100
+ -- counter [Fail Different Sectors: Overlap Muon]          ==    11
+ -- counter [Should Have made a Muon: 1.3 <= eta <= 1.7]    ==    27
+ -- counter [Should Have made a Muon: eta > 2.1]            ==    27
+ -- counter [DT-CSC Should have made a track: Overlap Muon] ==     3
+ -- counter [Fail Eta/Phi Windows: Overlap Muon]            ==     6
+ -- counter [Should have made a Muon: Overlap Muon]         ==     1
+ -- counter [Should Have made a Muon: eta < 1.3]            ==     7
+ -- counter [Fail DT-CSC Phi window: Overlap Muon]          ==    11
+ -- counter [Fail Sector Edge: Overlap Muon]                ==     3
+----------------------- 
+
+
+
+
+Processing efficienciesGlobalMuonsTwoMatched.C++...
+ --- Event #      1 
+ --- Event #  10001 
+ --- Event #  20001 
+ --- Event #  30001 
+ --- Event #  40001 
+ --- Event #  50001 
+ --- Event #  60001 
+ --- Event #  70001 
+ --- Event #  80001 
+ --- Event #  90001 
+ --- Event # 100001 
+ --- Event # 110001 
+ --- Event # 120001 
+ --- Event # 130001 
+ --- Event # 140001 
+ --- Event # 150001 
+ --- Event # 160001 
+ --- Event # 170001 
+ --- Event # 180001 
+ --- Event # 190001 
+ --- Event # 200001 
+ --- Event # 210001 
+ --- Event # 220001 
+ --- Event # 230001 
+ --- Event # 240001 
+ --- Event # 250001 
+ --- Event # 260001 
+ --- Event # 270001 
+ --- Event # 280001 
+ --- Event # 290001 
+ --- Event # 300001 
+ --- Event # 310001 
+ --- Event # 320001 
+ --- Event # 330001 
+ --- Event # 340001 
+ --- Event # 350001 
+ --- Event # 360001 
+ --- Event # 370001 
+ --- Event # 380001 
+ --- Event # 390001 
+ --- Event # 400001 
+ --- Event # 410001 
+ --- Event # 420001 
+ --- Event # 430001 
+ --- Event # 440001 
+ --- Event # 450001 
+ --- Event # 460001 
+ --- Event # 470001 
+ --- Event # 480001 
+ --- Event # 490001 
+ --- Event # 500001 
+ --- Event # 510001 
+ --- Event # 520001 
+ --- Event # 530001 
+ --- Event # 540001 
+ --- Event # 550001 
+ --- Event # 560001 
+ --- Event # 570001 
+ --- Event # 580001 
+ --- Event # 590001 
+ --- Event # 600001 
+ --- Event # 610001 
+ --- Event # 620001 
+ --- Event # 630001 
+ --- Event # 640001 
+ --- Event # 650001 
+ --- Event # 660001 
+ --- Event # 670001 
+ --- Event # 680001 
+ --- Event # 690001 
+ --- Event # 700001 
+ --- Event # 710001 
+ --- Event # 720001 
+ --- Event # 730001 
+ --- Event # 740001 
+ --- Event # 750001 
+ --- Event # 760001 
+ --- Event # 770001 
+ --- Event # 780001 
+ --- Event # 790001 
+ --- Event # 800001 
+ --- Event # 810001 
+ --- Event # 820001 
+ --- Event # 830001 
+ --- Event # 840001 
+ --- Event # 850001 
+ --- Event # 860001 
+ --- Event # 870001 
+ --- Event # 880001 
+ --- Event # 890001 
+ --- Event # 900001 
+ --- Event # 910001 
+ --- Event # 920001 
+ --- Event # 930001 
+ --- Event # 940001 
+ --- Event # 950001 
+ --- Event # 960001 
+ --- Event # 970001 
+ --- Event # 980001 
+ --- Event # 990001 
+ --- Event # 1000001 
+ --- Event # 1010001 
+ --- Event # 1020001 
+ --- Event # 1030001 
+ --- Event # 1040001 
+ --- Event # 1050001 
+ --- Event # 1060001 
+ --- Event # 1070001 
+ --- Event # 1080001 
+--------------------------------------------------------------------------------
+ ------------------------- End Analysis ----------------------------------------------------------
+Number of Global muons matched to two LCTs      = 71073
+   of these 1826 were overlap muons. 
+Number of times CSCTF did not trigger on a muon  = 3432
+Number of times CSCTF did not produce a track(failed muons) = 3238
+
+8Total Failures: 
+ Eta/Phi Windows = 1973
+ LCTs Different Sector = 696
+ Sector Edging = 674
+ Unaccounted Failures = 85
+ Sum of failures = 3431
+Map Counters: Different Eta regions 
+
+List of counted values: 
+----------------------- 
+ -- counter [Denominator: 1.7 <= eta <= 2.1]                == 21179
+ -- counter [Denominator: 1.3 <= eta <= 1.7]                == 15039
+ -- counter [Denominator: eta > 2.1]                        == 26508
+ -- counter [No Trigger: eta > 2.1]                         ==   860
+ -- counter [Fail Sector Edge: eta > 2.1]                   ==   196
+ -- counter [No Trigger: 1.3 <= eta <= 1.7]                 ==  1447
+ -- counter [Fail Different Sectors: 1.3 <= eta <= 1.7]     ==   337
+ -- counter [Denominator: eta < 1.3]                        ==  6524
+ -- counter [Denominator: Overlap Muon]                     ==  1826
+ -- counter [Fail Eta/Phi Windows: 1.3 <= eta <= 1.7]       ==   835
+ -- counter [No Trigger 1.7 <= eta <= 2.1]                  ==   762
+ -- counter [Fail Eta/Phi Windows: 1.7 <= eta <= 2.1]       ==   534
+ -- counter [No Trigger: eta < 1.3]                         ==   204
+ -- counter [Fail Eta/Phi Windows: eta < 1.3]               ==    49
+ -- counter [Fail Eta/Phi Windows: eta > 2.1]               ==   538
+ -- counter [No Trigger: Overlap Muon]                      ==   160
+ -- counter [Fail DT-CSC different sectors: Overlap Muon]   ==   124
+ -- counter [Fail Sector Edge: 1.3 <= eta <= 1.7]           ==   257
+ -- counter [Fail Sector Edge: 1.7 <= eta <= 2.1]           ==   119
+ -- counter [Fail Different Sectors: eta < 1.3]             ==    49
+ -- counter [Fail Different Sectors: 1.7 <= eta <= 2.1]     ==    75
+ -- counter [Fail Sector Edge: eta < 1.3]                   ==    99
+ -- counter [Should Have made a Muon: 1.7 <= eta <= 2.1]    ==    34
+ -- counter [Fail Different Sectors: eta > 2.1]             ==   100
+ -- counter [Fail Different Sectors: Overlap Muon]          ==    11
+ -- counter [Should Have made a Muon: eta > 2.1]            ==    26
+ -- counter [Should Have made a Muon: 1.3 <= eta <= 1.7]    ==    17
+ -- counter [DT-CSC Should have made a track: Overlap Muon] ==     3
+ -- counter [Fail Eta/Phi Windows: Overlap Muon]            ==     6
+ -- counter [Should have made a Muon: Overlap Muon]         ==     1
+ -- counter [Should Have made a Muon: eta < 1.3]            ==     7
+ -- counter [Fail DT-CSC Phi window: Overlap Muon]          ==    11
+ -- counter [Fail Sector Edge: Overlap Muon]                ==     3
+----------------------- 
+
+
+

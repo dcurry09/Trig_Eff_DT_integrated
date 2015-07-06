@@ -1,0 +1,4 @@
+<use   name="L1CSCTFAnalysis/TrigEff"/>
+<library   file="*.cc" name="L1CSCTFAnalysisTrigEffPlugins">
+  <flags   EDM_PLUGIN="1"/>
+</library>

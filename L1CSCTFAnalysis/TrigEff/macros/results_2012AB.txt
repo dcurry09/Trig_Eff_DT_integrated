@@ -1,0 +1,164 @@
+
+Processing efficienciesGlobalMuonsTwoMatched.C++...
+ --- Event #      1 
+ --- Event #  10001 
+ --- Event #  20001 
+ --- Event #  30001 
+ --- Event #  40001 
+ --- Event #  50001 
+ --- Event #  60001 
+ --- Event #  70001 
+ --- Event #  80001 
+ --- Event #  90001 
+ --- Event # 100001 
+ --- Event # 110001 
+ --- Event # 120001 
+ --- Event # 130001 
+ --- Event # 140001 
+ --- Event # 150001 
+ --- Event # 160001 
+ --- Event # 170001 
+ --- Event # 180001 
+ --- Event # 190001 
+ --- Event # 200001 
+ --- Event # 210001 
+ --- Event # 220001 
+ --- Event # 230001 
+ --- Event # 240001 
+ --- Event # 250001 
+ --- Event # 260001 
+ --- Event # 270001 
+ --- Event # 280001 
+ --- Event # 290001 
+ --- Event # 300001 
+ --- Event # 310001 
+ --- Event # 320001 
+ --- Event # 330001 
+ ------------------------- End Analysis ----------------------------------------------------------
+Number of Global muons matched to two LCTs      = 9889
+   of these 199 were overlap muons. 
+Number of times CSCTF did not trigger on a muon  = 560
+   Of these 0 were overlap muons. 
+Number of times CSCTF did not produce a track(failed muons) = 530
+
+Total Failures: 
+ Eta/Phi Windows = 367
+ LCTs Different Sector = 94
+ Sector Edging = 89
+ Unaccounted Failures = 10
+ Sum of failures = 560
+Map Counters: Different Eta regions 
+
+List of counted values: 
+----------------------- 
+ -- counter [Denominator: 1.3 <= eta <= 1.7]              == 1621
+ -- counter [Denominator: eta < 1.3]                      ==  719
+ -- counter [Denominator: eta > 2.1]                      == 4192
+ -- counter [Denominator: 1.7 <= eta <= 2.1]              == 3159
+ -- counter [No Trigger 1.7 <= eta <= 2.1]                ==  167
+ -- counter [Fail Eta/Phi Windows: 1.7 <= eta <= 2.1]     ==  112
+ -- counter [No Trigger: eta > 2.1]                       ==  230
+ -- counter [Fail Eta/Phi Windows: eta > 2.1]             ==  152
+ -- counter [Denominator: Overlap Muon]                   ==  199
+ -- counter [Fail Sector Edge: 1.7 <= eta <= 2.1]         ==   27
+ -- counter [No Trigger: 1.3 <= eta <= 1.7]               ==  138
+ -- counter [Fail Eta/Phi Windows: 1.3 <= eta <= 1.7]     ==   95
+ -- counter [Fail Sector Edge: eta > 2.1]                 ==   52
+ -- counter [Fail Different Sectors: 1.3 <= eta <= 1.7]   ==   36
+ -- counter [Fail Different Sectors: eta > 2.1]           ==   20
+ -- counter [Should Have made a Muon: 1.7 <= eta <= 2.1]  ==    4
+ -- counter [No Trigger: eta < 1.3]                       ==   17
+ -- counter [Fail Different Sectors: eta < 1.3]           ==    6
+ -- counter [Fail Different Sectors: 1.7 <= eta <= 2.1]   ==   24
+ -- counter [No Trigger: Overlap Muon]                    ==    8
+ -- counter [Fail DT-CSC different sectors: Overlap Muon] ==    8
+ -- counter [Should Have made a Muon: eta > 2.1]          ==    6
+ -- counter [Fail Eta/Phi Windows: eta < 1.3]             ==    8
+ -- counter [Fail Sector Edge: 1.3 <= eta <= 1.7]         ==    7
+ -- counter [Fail Sector Edge: eta < 1.3]                 ==    3
+----------------------- 
+
+
+
+
+Processing efficienciesGlobalMuonsTwoMatched.C++...
+ --- Event #      1 
+ --- Event #  10001 
+ --- Event #  20001 
+ --- Event #  30001 
+ --- Event #  40001 
+ --- Event #  50001 
+ --- Event #  60001 
+ --- Event #  70001 
+ --- Event #  80001 
+ --- Event #  90001 
+ --- Event # 100001 
+ --- Event # 110001 
+ --- Event # 120001 
+ --- Event # 130001 
+ --- Event # 140001 
+ --- Event # 150001 
+ --- Event # 160001 
+ --- Event # 170001 
+ --- Event # 180001 
+ --- Event # 190001 
+ --- Event # 200001 
+ --- Event # 210001 
+ --- Event # 220001 
+ --- Event # 230001 
+ --- Event # 240001 
+ --- Event # 250001 
+ --- Event # 260001 
+ --- Event # 270001 
+ --- Event # 280001 
+ --- Event # 290001 
+ --- Event # 300001 
+ --- Event # 310001 
+ --- Event # 320001 
+ --- Event # 330001 
+--------------------------------------------------------------------------------
+ ------------------------- End Analysis ----------------------------------------------------------
+Number of Global muons matched to two LCTs      = 9889
+   of these 199 were overlap muons. 
+Number of times CSCTF did not trigger on a muon  = 560
+Number of times CSCTF did not produce a track(failed muons) = 530
+
+Total Failures: 
+ Eta/Phi Windows = 367
+ LCTs Different Sector = 94
+ Sector Edging = 89
+ Unaccounted Failures = 10
+ Sum of failures = 560
+Map Counters: Different Eta regions 
+
+List of counted values: 
+----------------------- 
+ -- counter [Denominator: 1.3 <= eta <= 1.7]              == 1621
+ -- counter [Denominator: eta < 1.3]                      ==  719
+ -- counter [Denominator: eta > 2.1]                      == 4192
+ -- counter [Denominator: 1.7 <= eta <= 2.1]              == 3159
+ -- counter [No Trigger 1.7 <= eta <= 2.1]                ==  167
+ -- counter [Fail Eta/Phi Windows: 1.7 <= eta <= 2.1]     ==  112
+ -- counter [No Trigger: eta > 2.1]                       ==  230
+ -- counter [Fail Eta/Phi Windows: eta > 2.1]             ==  152
+ -- counter [Denominator: Overlap Muon]                   ==  199
+ -- counter [Fail Sector Edge: 1.7 <= eta <= 2.1]         ==   27
+ -- counter [No Trigger: 1.3 <= eta <= 1.7]               ==  138
+ -- counter [Fail Eta/Phi Windows: 1.3 <= eta <= 1.7]     ==   95
+ -- counter [Fail Sector Edge: eta > 2.1]                 ==   52
+ -- counter [Fail Different Sectors: 1.3 <= eta <= 1.7]   ==   36
+ -- counter [Fail Different Sectors: eta > 2.1]           ==   20
+ -- counter [Should Have made a Muon: 1.7 <= eta <= 2.1]  ==    4
+ -- counter [No Trigger: eta < 1.3]                       ==   17
+ -- counter [Fail Different Sectors: eta < 1.3]           ==    6
+ -- counter [Fail Different Sectors: 1.7 <= eta <= 2.1]   ==   24
+ -- counter [No Trigger: Overlap Muon]                    ==    8
+ -- counter [Fail DT-CSC different sectors: Overlap Muon] ==    8
+ -- counter [Should Have made a Muon: eta > 2.1]          ==    6
+ -- counter [Fail Eta/Phi Windows: eta < 1.3]             ==    8
+ -- counter [Fail Sector Edge: 1.3 <= eta <= 1.7]         ==    7
+ -- counter [Fail Sector Edge: eta < 1.3]                 ==    3
+----------------------- 
+
+
+

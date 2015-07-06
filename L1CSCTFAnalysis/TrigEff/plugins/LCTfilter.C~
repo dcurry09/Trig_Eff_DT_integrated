@@ -1,0 +1,98 @@
+///////////////////////
+//LCTfilter.C
+//
+//Author: Scott Nicks
+//
+//Function: This script filters tracks from a ROOT file to keep only those with three LCT hits. 
+//	    Later, one of the LCTs will be replaced with an RPC, and the Pt will be recalculated.
+//
+//Notes: Much of the design of this code was taken from 
+//	
+//	 efficienciesGlobalMuonsTwoMatched.C,
+//
+// 	 written by David Curry and GP DiGiovanni.
+
+
+#include<exception>
+#include<vector>
+#include<iostream>
+
+#include<TSystem.h>
+#include<TFile.h>
+#include<TTree.h>
+#include<TCanvas.h>
+#include<TLegend.h>
+#include<TMath.h>
+#include<TROOT.h>
+#include<TStyle.h>
+#include<TString.h>
+#include<TMultiGraph.h>
+#include<TEfficiency.h>
+
+using namespace std;
+
+#include "include/MapCounter.h"
+#include "include/EffiEvent.h"
+#include "src/EffiEvent.cc"
+#include "include/PtAddress.h"
+
+
+void LCTfilter(int printLevel = 0){
+  
+  // class that wraps TTree variables and methods
+  EffiEvent evt;
+  
+  TFile* file = TFile::Open("rpc_tuple.root");
+
+  evt.AttachToFile(file);
+
+  //Start loop over events
+  //for (int iEvt = 0; iEvt < evt.GetEntries(); iEvt++) {
+  
+  // for testing
+  for (int iEvt = 0; iEvt < 10; iEvt++) {
+
+    evt.GetEntry(iEvt);
+    if ( ( iEvt % 10000) == 0 ) printf(" --- Event # %6d \n", iEvt);
+    
+    if (printLevel > 1) {
+      cout << "=========================  Starting new event loop! ==================================" << endl;
+      cout << "Event = " << iEvt << endl;
+      cout << " # csctf tracks in event = " << evt.SizeTrk << endl;
+      cout << " # rpc lcts in event     = "  << evt.Size_rpc_LCTs << endl;
+    }
+    
+    // Loop over csctf tracks
+    for (int iCSCTrk = 0; iCSCTrk < evt.SizeTrk; iCSCTrk++) {
+      
+      if (printLevel > 1) {
+	cout << "============ Looping over CSC track # " << iCSCTrk << endl;
+	cout << " CSCTF track pT   = " << evt.PtTrk[iCSCTrk]  << endl;
+	cout << " # of LCTs in Trk = " << evt.NumLctsTrk[iCSCTrk] << endl << endl; 
+      }
+      
+      // Loop over LCTs in the track
+      for (int iLct = 0; iLct < evt.NumLctsTrk[iCSCTrk]; iLct++) {
+
+	if (printLevel > 1) {
+	  cout << "    ============ Looping over LCT # " << iLct << endl;
+	  cout << "     LCT Global Phi = " << evt.trLctglobalPhi[iCSCTrk][iLct] << endl;
+	  cout << "     LCT Global Eta = " << evt.trLctglobalEta[iCSCTrk][iLct] << endl;
+          cout << "     LCT Station    = " << evt.trLctStation[iCSCTrk][iLct]   << endl;
+          cout << "     LCT Sector     = " << evt.trLctSector[iCSCTrk][iLct]    << endl;
+          cout << "     LCT Subsector  = " << evt.trLctSubSector[iCSCTrk][iLct] << endl;
+	  cout << "     LCT CSC ID     = " << evt.trLctCSCId[iCSCTrk][iLct]     << endl;
+	}
+
+
+      } // end loop over Lcts
+      
+
+      
+    } //End loop over csc tracks
+ 
+  } //End loop through events
+ 
+  evt.CloseFile(file);
+
+} //End program
